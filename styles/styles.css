@@ -1,0 +1,61 @@
+body{
+    font-family: "Candara Light";
+    font-size: 18px;
+    background-color: #fffee0;
+}
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none}
+a:hover{
+    text-decoration: underline;
+    /*font-weight: bold;*/
+    /*font-size: 18px;*/
+}
+a:visited{
+    color: #000d52;
+}
+
+/*Lists*/
+li {font-weight: normal}
+
+/*Headers*/
+h1 {font-family: "Footlight MT Light";
+color: #0b2e13;
+font-size: 50px;}
+
+h4 {font-style: italic;
+    color: #0b2e13;}
+
+
+h2 {font-family: "Footlight MT Light";
+    color: #0b2e13;}
+
+/*More Classes*/
+.bold {font-weight: bold;}
+.underline{text-decoration: underline;}
+.justify{text-align: justify}
+/*.homebg{*/
+/*    background-image: url('../Photos/bg.jpg');*/
+/*    background-position: top right;*/
+/*    background-size: cover;*/
+/*}*/
+.sans{font-family: "Candara Light"}
+.center{text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;}
+
+/*Boxes*/
+.box1{
+    border-width: 1px;
+    border-style: solid;
+    padding: 15px;
+    margin: 40px;
+}
+.box2{
+    /*padding: 15px;*/
+    padding: 40px;
+}
+.box3{
+    margin: 50px;
+}
